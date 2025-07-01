@@ -1,52 +1,33 @@
 import Header from "../components/Header/Header";
 
-const ContanctPage = () =>{
-    return(
-        <>
+
+const ContactPage = () =>{
+ return(
+     <div>
         <Header/>
-            <h1 text-align="center">"Contact Us"</h1>
-            <section>
-                <p>We'd love to hear form ypu! Whether you have question about admission, program, or campus lige, our team is here to help</p>
-            </section>
-            <h2>General Enquiries</h2>
-            <section>
-                <p>
-                    <b>Vivekanand College Main Campus</b><br/>
-                    [Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]<br/>
-                    India<br/>
-                    Phone: <b>+91 1234567890</b>
-                    Email: <b>info@vivekanandcollege</b>
-                    Office Hours: <b>Monday - Friday, 9:00 AM - 5:00 PM IST</b>
-                </p>
-            </section>
-            <h2>Admission Office</h2>
-            <section>
-                <p>
-                    For all admission-related queries regarding undergraduate or postgraduate programs:<br/>
-                    Phone: <b>+91 9876543210</b>
-                    Email: <b>studentsupport@vivekanandcollge.edu</b>
-                </p>
-            </section>
-            <h2>Student Support Services</h2>
-            <section>
-                <p>
-                For current student support, academic advising, or general assistance:<br/>
-                Phone: +91 8765432109<br/>
-                Email: studentsupport@vivekanandcollege.edu<b/>
-                </p>
-            </section>
-            <h2>Find Us on the Map</h2>
-            <section>
-                <a href="https://maps.google.com/?q=Vivekanand+College" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
-            </section>
-            <section>
-                <h2>Send Us a Massage</h2>
-                <p>
-                    [A contact form with fields for Name, Email, Subject, Message can br added here.]
-                </p>
-            </section>
-        </>
+        <div id="container" class="scroll-bar"> 
+        <h1 class="first">Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
+        <h2>General Enquiries</h2><hr/>
+        <h3>Vivekanand College Main Campus</h3>
+        <p>[Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]India <br/>Phone:<b>+91 12345 67890</b><br/>
+Email:<b>info@vivekanandcollege.edu</b><br/>
+Office Hours: Monday - Friday, 9:00 AM - 5:00 PM IST</p>
+    <h2>Admissions Office</h2><hr/>
+    <p>For all admission-related queries regarding undergraduate or postgraduate programs:<br/>
+    Phone: +91 98765 43210<br/>
+    Email: admissions@vivekanandcollege.edu</p>
+    <h2>Student Support Services</h2><hr/>
+    <p>For current student support, academic advising, or general assistance:<br/>
+    Phone: +91 87654 32109<br/>
+    Email:studentsupport@vivekanandcollege.edu</p>
+    <h2>Find Us on the Map</h2><hr/>
+    <u><a href="https://www.google.com/maps/search/Vivekanand+College/@16.7084482,74.1976659,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D">View on Google Maps</a></u>
+    <h2>Send Us a Message</h2><hr/>
+    <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
+    </div>
+    </div>
     )
 }
 
-export default ContanctPage;
+export default ContactPage;
