@@ -29,7 +29,8 @@ const HomePage = () => {
 
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.<br />Ready to explore our courses?</p>
 
-                <a href="/courses" class="btn">Explore Courses</a>
+                    <div className="h1">
+                <a href="/courses" class="btn">Explore Courses</a></div>
             </div>
         </div>
     )
