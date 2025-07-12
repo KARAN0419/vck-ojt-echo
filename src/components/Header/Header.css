@@ -9,7 +9,7 @@
 .nav{
     color: rgb(255, 255, 255);
 }
-.dekstop-nav{
+.dekstop-nav{ 
     display: flex;
     gap: 20px;
 }
@@ -166,4 +166,20 @@
     font-size: 1.5em;
     /* Adjust college name size on mobile */
   }
+
+.header1 {
+  overflow: auto;
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;    /* IE and Edge */
+}
+.nav{
+    display: none;
+}
+.btn{
+  display: none;
+}
+
+.header::-webkit-scrollbar {
+  display: none;               /* Chrome, Safari, Opera */
+}
 }

@@ -8,6 +8,7 @@ import './styles/Pages.css'
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
@@ -38,6 +39,7 @@ const App = () => {
         </Routes>
       </Router>
       <ChatbotComponent/>
+      <Footer/>
        </>
   )
 }
